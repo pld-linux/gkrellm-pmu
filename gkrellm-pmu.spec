@@ -8,7 +8,8 @@ Group:		X11/Applications
 Source0:	http://www.cymes.de/members/joker/projects/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	9a1f815b3ac175ac3cf05744d5c9747e
 URL:		http://www.cymes.de/members/joker/projects/gkrellm-pmu/gkrellm-pmu.html
-BuildRequires:	gkrellm-devel
+BuildRequires:	autoconf
+BuildRequires:	gkrellm-devel >= 2.0
 Requires:	gkrellm >= 2.0
 ExclusiveArch:	ppc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -26,7 +27,7 @@ u¿ycia podsystemu APM, który jest ma³o tre¶ciwy.
 
 %build
 %{__autoconf}
-%{configure}
+%configure
 
 %{__make}
 
