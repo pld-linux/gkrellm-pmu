@@ -23,7 +23,7 @@ GKrellm-PMU pokazuje stan baterii dla notebooków Apple Powerbook bez
 u¿ycia podsystemu APM, który jest ma³o tre¶ciwy.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %build
 %{__autoconf}
