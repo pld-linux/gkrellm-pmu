@@ -1,12 +1,12 @@
 Summary:	PMU Plugin for Gkrellm 2.0
 Summary(pl):	Plugin PMU dla Gkrellm 2.0
 Name:		gkrellm-pmu
-Version:	2.0
+Version:	2.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.cymes.de/members/joker/projects/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	9a1f815b3ac175ac3cf05744d5c9747e
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	0ad6b7e36da369be0df76310e0b690d9
 URL:		http://www.cymes.de/members/joker/projects/gkrellm-pmu/gkrellm-pmu.html
 BuildRequires:	autoconf
 BuildRequires:	gkrellm-devel >= 2.0
