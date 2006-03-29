@@ -1,13 +1,13 @@
 Summary:	PMU Plugin for Gkrellm 2.0
 Summary(pl):	Plugin PMU dla Gkrellm 2.0
 Name:		gkrellm-pmu
-Version:	2.3
+Version:	2.5
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	0ad6b7e36da369be0df76310e0b690d9
-URL:		http://www.cymes.de/members/joker/projects/gkrellm-pmu/gkrellm-pmu.html
+Source0:	http://dl.sourceforge.net/gkrellm-pmu/%{name}-%{version}.tar.gz
+# Source0-md5:	a1a314e816994d1e2e1e3858a0a695d3
+URL:		http://pbbuttons.berlios.de/projects/gkrellm-pmu/index.html
 BuildRequires:	autoconf
 BuildRequires:	gkrellm-devel >= 2.0
 Requires:	gkrellm >= 2.0
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README Theming
+%doc ChangeLog README
 %attr(755,root,root) %{_libdir}/gkrellm2/plugins/pmu.so
