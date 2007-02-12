@@ -1,5 +1,5 @@
 Summary:	PMU Plugin for Gkrellm 2.0
-Summary(pl):	Plugin PMU dla Gkrellm 2.0
+Summary(pl.UTF-8):   Plugin PMU dla Gkrellm 2.0
 Name:		gkrellm-pmu
 Version:	2.5
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GKrellm-PMU creates a battery display for Apple Powerbook without
 using APM frontends, which tend to be less verbose.
 
-%description -l pl
-GKrellm-PMU pokazuje stan baterii dla notebookÛw Apple Powerbook bez
-uøycia podsystemu APM, ktÛry jest ma≥o tre∂ciwy.
+%description -l pl.UTF-8
+GKrellm-PMU pokazuje stan baterii dla notebook√≥w Apple Powerbook bez
+u≈ºycia podsystemu APM, kt√≥ry jest ma≈Ço tre≈õciwy.
 
 %prep
 %setup -q
