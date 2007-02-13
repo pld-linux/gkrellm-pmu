@@ -1,5 +1,5 @@
 Summary:	PMU Plugin for Gkrellm 2.0
-Summary(pl.UTF-8):   Plugin PMU dla Gkrellm 2.0
+Summary(pl.UTF-8):	Plugin PMU dla Gkrellm 2.0
 Name:		gkrellm-pmu
 Version:	2.5
 Release:	1
